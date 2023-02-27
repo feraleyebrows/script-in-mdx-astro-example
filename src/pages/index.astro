@@ -1,0 +1,10 @@
+---
+import { getCollection } from "astro:content";
+import Scriptify from "../components/Scriptify.astro";
+
+const posts = await getCollection("pages");
+const post = posts[0];
+const { Content } = await post.render();
+---
+
+<Content components={{ Scriptify }} />

@@ -1,0 +1,14 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.17.2",
+    "astro": "^2.0.16",
+    "astro-m2dx": "^0.7.15"
+  }
+}
